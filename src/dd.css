@@ -1,0 +1,38 @@
+.DropDown {
+  width: 25%;
+  height: 100vh;
+}
+.ddButton {
+  background-color: black;
+  color: white;
+  padding: 4%;
+  width: 80%;
+}
+.ddButton:hover {
+  background-color: white;
+  color: black;
+}
+.ddOptions {
+  display: flex;
+  flex-flow: column nowrap;
+  overflow: scroll;
+  max-height: 40%;
+  height: auto;
+  background-color: white;
+}
+.ddItem {
+  display: flex;
+  align-items: left;
+  padding: 4% 2%;
+  border: solid black;
+  border-width: 2px 1px;
+}
+.ddItem:hover {
+  background-color: darkgray;
+}
+.hide {
+  display: none;
+}
+.ddText {
+  white-space: nowrap;
+}
